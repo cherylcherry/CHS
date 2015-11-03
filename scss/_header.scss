@@ -11,6 +11,12 @@
     margin: 5px 15px 0px 5px;
 }
 
+.nav-txt{
+	a{
+		color: $highlight !important;
+	}
+}
+
 .nav-btn{
 	background-color: $trans;
     border-width: 2px;
