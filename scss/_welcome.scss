@@ -3,5 +3,33 @@
 	background: url("../images/welcome.jpg");
 	height: 100%;
     width: 100%;
-}
+    color: $highlight;
 
+	h1{
+	    font-size: 47px;
+	    font-weight: bold;
+        margin-top: 13%;		
+	}
+
+	p{
+		font-size: 20px;
+	}
+
+		.btn1{
+			background-color: $trans;
+		    border-width: 2px;
+		    padding: 6px 20px !important;
+		    margin: 10px 5px;
+		    color: $highlight;
+		}
+
+		.btn2{
+			background-color: $tinge;
+			border-color: $tinge;
+		    border-width: 2px;
+		    padding: 6px 20px !important;
+		    margin: 10px 5px;
+		    color: $highlight;
+		}
+
+}
