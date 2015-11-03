@@ -24,6 +24,16 @@
     margin-top: 10px;
 }
 
+.nav-dropdown{
+	background-color: rgba(255, 255, 255, 0.13);
+	min-width: 130px;
+	text-align: center;
+	
+    a{
+		color: $tinge !important;
+	}
+}
+
 .logged-in{
 	padding: 0 !important;
 	content: url("../images/user.png");
