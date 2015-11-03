@@ -11,6 +11,13 @@
     margin: 5px 15px 0px 5px;
 }
 
+.nav-btn{
+	background-color: $trans;
+    border-width: 2px;
+    padding: 4px 17px !important;
+    margin-top: 10px;
+}
+
 .logged-in{
 	padding: 0 !important;
 	content: url("../images/user.png");
