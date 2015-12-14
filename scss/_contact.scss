@@ -9,13 +9,23 @@
 
 	.row1{
 		color: $text;
-		margin: 2% 14px 20px 0%;
+		margin: 2% 88px 20px 0%;
+	}
+
+	.row2{
+		p, a{
+			color: $text;
+		}
+
+		p{
+			margin-right: 14px
+		}
 	}
 
 	.row-submit{
 		input{
 			width: inherit;
-			margin-right: 14px;
+			margin-right: 88px;
 		}
 	}
 }
