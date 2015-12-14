@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang='en'>
     <head>
         <meta charset='utf-8'/>    
@@ -34,7 +35,7 @@
                         <li><a href="#">Home</a></li>
                         <!-- Add condition "if(user)" so that only a user/admin can view it --> 
                             <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#contact">Contact</a></li>
                         <!-- if(!user) -->
                             <li><a class="btn btn-default nav-btn" href="#" role="button">Login</a></li>
                         <!-- if(user) -->
@@ -55,12 +56,12 @@
 
         <!-- WELCOME -->
         <div class="container-fluid welcome-bg text-center">
-            <div class="row">
+            <div class="row row1">
                 <h1>SOCIETY</h1>
                 <p>S.V. Road, Borivli (W)</p>
             </div>
 
-            <div class="row">
+            <div class="row row2">
                 <a class="btn btn-default btn1" href="#" role="button">Login</a>
                 <a class="btn btn-default btn2" href="#" role="button">Signup</a>
             </div>
@@ -68,7 +69,7 @@
         <!-- End of WELCOME -->
 
         <!-- CONTACT -->
-        <div class="container">
+        <div class="container" id="contact">
             <form>      
               <input name="name" type="text" class="feedback-input" placeholder="Name" />   
               <input name="email" type="email" class="feedback-input" placeholder="Email" />
