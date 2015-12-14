@@ -1,4 +1,15 @@
 .footer-bg{
 	background: url("../images/footer.jpg") fixed;
 	height: 75px;
+	padding: 0%;
+
+	.row{
+		background-color: $veil;
+		height: 75px;
+
+		footer{
+			color: $text;
+		    margin: 30px;
+		}
+	}
 }
