@@ -2,8 +2,20 @@
 #contact{
 	background-color: $dark-bg;
 
+	input, textarea{
+		background-color: $trans;
+		color: $tinge;
+	}
+
 	.row1{
 		color: $text;
-		margin: 2% 4% 0% 0%;
+		margin: 2% 14px 20px 0%;
+	}
+
+	.row-submit{
+		input{
+			width: inherit;
+			margin-right: 14px;
+		}
 	}
 }
