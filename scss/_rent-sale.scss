@@ -9,6 +9,25 @@
 
 		section{
 			margin-top: 60px;
+
+			.panel{
+				background-color: $brown-block;
+			    border-width: medium;
+			    border-color: $dark-bg;
+
+			    h1{
+			    	font-size: 75px;
+		    	    margin: 0px;
+		    	    color: $tinge;
+	    	        text-shadow: 4px 3px 2px $dark-bg;
+			    }
+
+			    h3{
+			    	font-size: 30px;
+			    	margin: 12px 0px 0px 0px;
+			    	color: $dark-bg;
+			    }
+			}
 		}
 	}
 }
