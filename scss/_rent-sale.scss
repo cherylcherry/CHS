@@ -3,8 +3,12 @@
 	height: 300px;
 	padding: 0%;
 
-	.row{
+	.row_rs{
 		background-color: $veil-o;
 		height: 300px;
+
+		section{
+			margin-top: 60px;
+		}
 	}
 }
