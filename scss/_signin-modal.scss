@@ -1,5 +1,7 @@
 .signin-bg{
 	background: url(../images/diagmonds.png);
+	padding: 15px 0px 40px 0px;
+    margin-top: 15%;
 
 	span{
 		color: $text;
@@ -102,32 +104,33 @@
 			outline: 0;
 		}
 
-		.feedback {
-			position: absolute;
-			bottom: -70px;
-			width: 100%;
-			text-align: center;
-			color: #fff;
-			background: #2ecc71;
-			padding: 10px 0;
-			font-size: 12px;
-			display: none;
-			opacity: 0;
-		}
+	}
 
-		.feedback:before {
-			bottom: 100%;
-			left: 50%;
-			border: solid transparent;
-			content: "";
-			height: 0;
-			width: 0;
-			position: absolute;
-			pointer-events: none;
-			border-color: rgba(46, 204, 113, 0);
-			border-bottom-color: #2ecc71;
-			border-width: 10px;
-			margin-left: -10px;
-		}
+	.feedback {
+		position: absolute;
+		bottom: -70px;
+		width: 250px;
+		text-align: center;
+		color: #fff;
+		background: #2ecc71;
+		padding: 10px 0;
+		font-size: 12px;
+		display: none;
+		opacity: 0;
+	}
+
+	.feedback:before {
+		bottom: 100%;
+		left: 50%;
+		border: solid transparent;
+		content: "";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		border-color: rgba(46, 204, 113, 0);
+		border-bottom-color: #2ecc71;
+		border-width: 10px;
+		margin-left: -10px;
 	}
 }
